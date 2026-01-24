@@ -4,10 +4,13 @@ import Sidemenu from '../components/Sidemenu'
 
 const TrainerDashboard = () => {
   return (
-    <div>
-      <Header/>
-      <Sidemenu/>
-    </div>
+    <body className='bg-gray-100'>
+      <div >
+        <Header />
+        <Sidemenu />
+      </div>
+    </body>
+
   )
 }
 

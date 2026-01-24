@@ -2,8 +2,8 @@ import React from 'react'
 import LogscoolLogo from '../assets/Logiscool-logo.jpg'
 const Header = () => {
   return (
-    <div className='fixed top-0 left-0 mt-5 w-full bg-white'>
-      <div className='flex items-center max-w-10xl mx-auto px-6'>
+    <div className='fixed top-0 left-0 py-1.5 w-full bg-white border-b border-gray-200'>
+      <div className='flex items-center max-w-10xl mx-auto mb-5 mt-2 px-6'>
         <img src={LogscoolLogo} className='h-10 w-30' />
 
         <div className='flex gap-1 ml-auto'>
