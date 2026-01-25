@@ -48,7 +48,6 @@ const LoginForm = () => {
                         >
                             Sign in
                         </button>
-
                     </div>
                 </form>
 
